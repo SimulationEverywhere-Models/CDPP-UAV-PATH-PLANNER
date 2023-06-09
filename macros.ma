@@ -1,0 +1,80 @@
+#BeginMacro(CELL_N)
+  (0,1,0)
+#EndMacro
+#BeginMacro(CELL_E)
+  (1,0,0)
+#EndMacro
+#BeginMacro(CELL_S)
+  (0,-1,0)
+#EndMacro
+#BeginMacro(CELL_W)
+  (-1,0,0)
+#EndMacro
+#BeginMacro(CELL_NE)
+  (1,1,0)
+#EndMacro
+#BeginMacro(CELL_SE)
+  (1,-1,0)
+#EndMacro
+#BeginMacro(CELL_SW)
+  (-1,-1,0)
+#EndMacro
+#BeginMacro(CELL_NW)
+  (-1,1,0)
+#EndMacro
+
+
+#BeginMacro(CELL_N_1)
+  (0,1,1)
+#EndMacro
+#BeginMacro(CELL_E_1)
+  (1,0,1)
+#EndMacro
+#BeginMacro(CELL_S_1)
+  (0,-1,1)
+#EndMacro
+#BeginMacro(CELL_W_1)
+  (-1,0,1)
+#EndMacro
+#BeginMacro(CELL_NE_1)
+  (1,1,1)
+#EndMacro
+#BeginMacro(CELL_SE_1)
+  (1,-1,1)
+#EndMacro
+#BeginMacro(CELL_SW_1)
+  (-1,-1,1)
+#EndMacro
+#BeginMacro(CELL_NW_1)
+  (-1,1,1)
+#EndMacro
+
+#BeginMacro(CELL_N_2)
+  (0,1,2)
+#EndMacro
+#BeginMacro(CELL_E_2)
+  (1,0,2)
+#EndMacro
+#BeginMacro(CELL_S_2)
+  (0,-1,2)
+#EndMacro
+#BeginMacro(CELL_W_2)
+  (-1,0,2)
+#EndMacro
+#BeginMacro(CELL_NE_2)
+  (1,1,2)
+#EndMacro
+#BeginMacro(CELL_SE_2)
+  (1,-1,2)
+#EndMacro
+#BeginMacro(CELL_SW_2)
+  (-1,-1,2)
+#EndMacro
+#BeginMacro(CELL_NW_2)
+  (-1,1,2)
+#EndMacro
+
+
+#BeginMacro(MAX_NEIGHBOUR_1)
+  max( max( max( max( max( max( max( ( (0,1,1) - (0,1,2) ), ( (1,0,1) - (1,0,2) ) ), ( (0,-1,1) - (0,-1,2) ) ), ( (-1,0,1) - (-1,0,2) ) ), ( (1,1,1) - (1,1,2) ) ), ( (1,-1,1) - (1,-1,2) ) ), ( (-1,-1,1) - (-1,-1,2) ) ), ( (-1,1,1) - (-1,1,2) ) )
+#EndMacro
